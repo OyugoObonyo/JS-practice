@@ -1,4 +1,4 @@
-// functions in JS
+// exploring the this keyword
 const hen = {
     name : "Helen",
     eggCount : 0,
