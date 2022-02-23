@@ -1,12 +1,8 @@
-let output = []
-let num = 0
-// creating object literals
-const restaurant = {
-    name: 'Ichiran Ramen',
-    address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
-    city: 'Brooklyn',
-    state: 'NY',
-    zipcode: '11206',
+// functions in JS
+const hen = {
+    name : "Helen",
+    eggCount : 0,
+    layAnEgg() {
+        this.eggCount += 1
+    }
 }
-let fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state}, ${restaurant.zipcode}`
-alert(fullAddress)
